@@ -37,6 +37,15 @@ function App() {
             </div>
           </div>
       </section>    
+
+      <section id="Projects">
+
+      </section>
+
+
+      <section id="Experience">
+        
+      </section>
     </div>
   );
 }
