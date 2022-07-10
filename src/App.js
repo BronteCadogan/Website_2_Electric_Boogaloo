@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 // One Page Website 
@@ -7,10 +6,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h1>Bront&euml; Cadogan</h1>
+        <h2>Bachelor of Science: Computer Engineering</h2>
       </header>
     </div>
   );
