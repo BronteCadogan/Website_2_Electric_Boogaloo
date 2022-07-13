@@ -127,7 +127,35 @@ h1,h2
   filter: saturate(800%);
 }
 
+#Experience
+{
+  border: 10px 10px #282c34;
+  border-style: dotted;
+  position: absolute;
+  top: 0;
+  margin-left: 70%;
+  margin-top: 60vh;
+  /* Make this the halloween filter filter:  hue-rotate(180deg); */
+  filter: hue-rotate(300deg)  saturate(200%);
+}
 
+#Hobbies
+{
+  border: 10px 10px #282c34;
+  border-style: dotted;
+  position: absolute;
+  top: 0;
+  margin-left: 30%;
+  margin-top: 40vh;
+  filter: saturate(800%);
+}
+.jobs
+{
+  font-weight: 800;
+  padding-bottom: 2% ;
+  padding-top: 2%;
+
+}
 
 .button {
   cursor: pointer;

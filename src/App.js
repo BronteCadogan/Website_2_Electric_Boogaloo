@@ -55,6 +55,58 @@ function App() {
           </div>
       </section>
 
+      
+      <section id="Experience">
+      <div>
+            <div class="window" style={{width: "320px"}}>
+              <div class="title-bar">
+              <div class="title-bar-text">Experience</div>
+              </div>
+              <div class="window-body">
+                <dl className='List'>
+                  <dt className='jobs'>Publix Super Markets Inc.</dt>
+                  <dd>Cashier</dd>
+                  <dd>2017 - Present</dd>
+                  <dt className='jobs'>University of Florida: Florida Insitute for Cybersecurity Research</dt>
+                  <dd>Web Developer/Undergraduate Researcher</dd>
+                  <dd>2021 - Present</dd>
+                </dl>
+              </div>
+              <div class="status-bar">
+                <p class="status-bar-field">Press F1 for help</p>
+                <p class="status-bar-field">Slide 1</p>
+                <p class="status-bar-field">CPU Usage: 14%</p>
+              </div>
+            </div>
+          </div> 
+      </section>
+
+      
+      <section id="Hobbies">
+      <div>
+            <div class="window" style={{width: "320px"}}>
+              <div class="title-bar">
+              <div class="title-bar-text">Hobbies</div>
+              </div>
+              <div class="window-body">
+                <dl className='List'>
+                  <dt className='jobs'>Publix Super Markets Inc.</dt>
+                  <dd>Cashier</dd>
+                  <dd>2017 - Present</dd>
+                  <dt className='jobs'>University of Florida: Florida Insitute for Cybersecurity Research</dt>
+                  <dd>Web Developer/Undergraduate Researcher</dd>
+                  <dd>2021 - Present</dd>
+                </dl>
+              </div>
+              <div class="status-bar">
+                <p class="status-bar-field">Press F1 for help</p>
+                <p class="status-bar-field">Slide 1</p>
+                <p class="status-bar-field">CPU Usage: 14%</p>
+              </div>
+            </div>
+          </div> 
+      </section>
+
       <section className="about">
         <style>
           <link rel="stylesheet" href="https://unpkg.com/98.css"/>
@@ -72,9 +124,6 @@ function App() {
      
 
 
-      <section id="Experience">
-        
-      </section>
     </div>
   );
 }
