@@ -4,6 +4,9 @@ import resume from "./files/BronteCadoganResume.pdf"
 
 // One Page Website 
 
+
+
+
 function App() {
   return (
     <div className="App" id="homepage">
@@ -24,6 +27,34 @@ function App() {
         </li>
       </ul>
 
+
+      <section id="Projects" >
+        <div>
+            <div class="window" style={{width: "320px"}}>
+              <div class="title-bar">
+              <div class="title-bar-text">Projects: Click on one to learn more</div>
+              </div>
+              <div class="window-body">
+                <ul className='List'>
+                  <li><button class="button">The Automatic Handle Cleaning System</button></li>
+                  <li><button class="button">The Theremin</button></li>
+                  <li><button class="button">The ML Accumulator</button></li>
+                  <li><button class="button">Website 2: Electric Boogaloo</button></li>
+                  <li><button class="button">The Currency Converter</button></li>
+                  <p id="bolden">Upcoming:</p>
+                  <li><button class="button">The Weather Line</button></li>
+                  <li><button class="button">Mega Awesome Speaker Setup (M.A.S.S.)</button></li>
+                </ul>
+              </div>
+              <div class="status-bar">
+                <p class="status-bar-field">Press F1 for help</p>
+                <p class="status-bar-field">Slide 1</p>
+                <p class="status-bar-field">CPU Usage: 14%</p>
+              </div>
+            </div>
+          </div>
+      </section>
+
       <section className="about">
         <style>
           <link rel="stylesheet" href="https://unpkg.com/98.css"/>
@@ -38,9 +69,7 @@ function App() {
           </div>
       </section>    
 
-      <section id="Projects">
-
-      </section>
+     
 
 
       <section id="Experience">

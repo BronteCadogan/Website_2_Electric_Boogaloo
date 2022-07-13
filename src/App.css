@@ -112,3 +112,32 @@ h1,h2
 {
   color: black;
 }
+.List
+{
+  text-align: left;
+}
+#Projects
+{
+  border: 10px 10px #282c34;
+  border-style: dotted;
+  position: absolute;
+  top: 0;
+  margin-left: 70%;
+  margin-top: 10vh;
+  filter: saturate(800%);
+}
+
+
+
+.button {
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#bolden
+{
+  font-weight: 800;
+  padding-top: 3%;
+  padding-bottom: -4% ;
+}
+
