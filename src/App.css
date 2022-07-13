@@ -80,7 +80,7 @@ background-size: cover;
   padding-left: 0;
 }
 
-ul
+ul.links
 {
   list-style:none;
 }
@@ -169,9 +169,40 @@ h1,h2
   padding-bottom: -4% ;
 }
 
+#Hobbies
+{
+  border: 10px 10px #282c34;
+  border-style: dotted;
+  position: absolute;
+  top: 0;
+  margin-left: 30%;
+  margin-top: 40vh;
+  filter: hue-rotate(300deg) saturate(800%);
+}
+
+#hobby
+{
+  margin-left: -10%;
+  padding-bottom: 10%;
+}
+
+ul.List
+{
+  list-style-type: square;
+}
+
+#padd
+{
+  margin-bottom: 10%;
+}
 #movies
 {
-  padding-top: 10%;
+  padding-top: 8%;
+  position:relative;
+  top:0;
+  margin-top: -82%;
+  margin-left: 30%;
+  padding-bottom: 10%;
 }
 
 

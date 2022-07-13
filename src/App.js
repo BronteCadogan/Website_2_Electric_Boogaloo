@@ -15,7 +15,7 @@ function App() {
         <h2 id="qualification">Bachelor of Science: Computer Engineering</h2>
       </header>
       <img src={bronte} alt="Bronte Cadogan" id="profile"/>
-      <ul id="list">
+      <ul class="links" id="list">
         <li>
           <a href={resume} target="_blank"  rel="noreferrer">R&eacute;sum&eacute;</a>
         </li>
@@ -91,7 +91,7 @@ function App() {
               <div class="window-body">
               <ul className='List'>
                   <section id="hobby">
-                    <p>Hobbies</p>
+                    <p><strong>Hobbies</strong></p>
                     <li>Film Making</li>
                     <li>Video Editing</li>
                     <li>Photography</li>
@@ -99,7 +99,7 @@ function App() {
                     <li>Cooking</li>
                   </section>
                   <section id="movies">
-                    <p>Top 5 Films</p>
+                    <p><strong id="padd">Favorite Films</strong></p>
                     <li>Pulp Fiction</li>
                     <li>2001 A Space Odyssey</li>
                     <li>Star Wars Episode III - Revenge of the Sith</li>
