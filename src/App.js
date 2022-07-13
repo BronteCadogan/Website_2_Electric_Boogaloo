@@ -86,17 +86,27 @@ function App() {
       <div>
             <div class="window" style={{width: "320px"}}>
               <div class="title-bar">
-              <div class="title-bar-text">Hobbies</div>
+              <div class="title-bar-text">Personality</div>
               </div>
               <div class="window-body">
-                <dl className='List'>
-                  <dt className='jobs'>Publix Super Markets Inc.</dt>
-                  <dd>Cashier</dd>
-                  <dd>2017 - Present</dd>
-                  <dt className='jobs'>University of Florida: Florida Insitute for Cybersecurity Research</dt>
-                  <dd>Web Developer/Undergraduate Researcher</dd>
-                  <dd>2021 - Present</dd>
-                </dl>
+              <ul className='List'>
+                  <section id="hobby">
+                    <p>Hobbies</p>
+                    <li>Film Making</li>
+                    <li>Video Editing</li>
+                    <li>Photography</li>
+                    <li>Weight Lifting</li>
+                    <li>Cooking</li>
+                  </section>
+                  <section id="movies">
+                    <p>Top 5 Films</p>
+                    <li>Pulp Fiction</li>
+                    <li>2001 A Space Odyssey</li>
+                    <li>Star Wars Episode III - Revenge of the Sith</li>
+                    <li>Star Trek IV: The Voyage Home</li>
+                    <li>Evil Dead</li>
+                  </section>
+                </ul>
               </div>
               <div class="status-bar">
                 <p class="status-bar-field">Press F1 for help</p>
