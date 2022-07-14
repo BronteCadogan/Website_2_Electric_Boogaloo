@@ -1,19 +1,21 @@
 import './App.css';
 import bronte from "./images/profile.png"
 import resume from "./files/BronteCadoganResume.pdf"
-
+import Halloween from './files/functions';
 // One Page Website 
 
 
 
 
 function App() {
+  Halloween();
+  
   return (
     <div className="App" id="homepage">
       <header className="App-header" id="homepage">
+      </header>
         <h1 id="name">Bront&euml; Cadogan</h1>
         <h2 id="qualification">Bachelor of Science: Computer Engineering</h2>
-      </header>
       <img src={bronte} alt="Bronte Cadogan" id="profile"/>
       <ul class="links" id="list">
         <li>
@@ -59,7 +61,7 @@ function App() {
       <section id="Experience">
       <div>
             <div class="window" style={{width: "320px"}}>
-              <div class="title-bar">
+              <div class="title-bar" id="exp">
               <div class="title-bar-text">Experience</div>
               </div>
               <div class="window-body">
@@ -85,7 +87,7 @@ function App() {
       <section id="Hobbies">
       <div>
             <div class="window" style={{width: "320px"}}>
-              <div class="title-bar">
+              <div class="title-bar" id="pr">
               <div class="title-bar-text">Personality</div>
               </div>
               <div class="window-body">
