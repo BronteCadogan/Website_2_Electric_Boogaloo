@@ -16,9 +16,9 @@ function Halloween ()
         document.getElementById("exp").style.background="linear-gradient(90deg, #ff00d1, rgb(16 36 208) )";
 
         document.getElementById("pr").style.background="linear-gradient(90deg, #ff00d1, rgb(16 36 208) )";
-
     }
-    }
+    
+}
     
 
 document.addEventListener("DOMContentLoaded", Halloween);

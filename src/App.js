@@ -8,8 +8,11 @@ import Halloween from './files/functions';
 
 
 function App() {
-  // could probably make this a call to a shorter function
+  // could probably make this a call to a shorter function, this needs to load before the page
   Halloween();
+  //find a place for this
+  document.addEventListener("DOMContentLoaded", Halloween);
+
   
   return (
     <div className="App" id="homepage">
@@ -133,10 +136,6 @@ function App() {
             </div>
           </div>
       </section>    
-
-     
-
-
     </div>
   );
 }
