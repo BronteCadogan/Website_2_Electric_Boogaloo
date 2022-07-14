@@ -8,6 +8,7 @@ import Halloween from './files/functions';
 
 
 function App() {
+  // could probably make this a call to a shorter function
   Halloween();
   
   return (
@@ -19,13 +20,13 @@ function App() {
       <img src={bronte} alt="Bronte Cadogan" id="profile"/>
       <ul class="links" id="list">
         <li>
-          <a href={resume} target="_blank"  rel="noreferrer">R&eacute;sum&eacute;</a>
+          <a href={resume} target="_blank"  rel="noreferrer" class="gradient">R&eacute;sum&eacute;</a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/brontecadogan/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/brontecadogan/"  class="gradient" target="_blank" rel="noreferrer">LinkedIn</a>
         </li>
         <li>
-          <a href="https://github.com/BronteCadogan" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://github.com/BronteCadogan"  class="gradient" target="_blank" rel="noreferrer">GitHub</a>
         </li>
       </ul>
 

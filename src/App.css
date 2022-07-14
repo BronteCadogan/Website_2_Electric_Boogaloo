@@ -195,6 +195,7 @@ ul.List
 {
   margin-bottom: 10%;
 }
+
 #movies
 {
   padding-top: 8%;
@@ -205,5 +206,33 @@ ul.List
   padding-bottom: 10%;
 }
 
+#name
+{
+  background: linear-gradient(
+    to bottom,  
+    #0F2027,
+    #203A43,
+    #2C5364
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
 
 
+
+#qualification
+{
+  background: linear-gradient(
+    to bottom ,  
+  
+    /* rgb(61, 200, 255), 
+    rgb(105, 255, 46) */
+    #0F2027,
+    #203A43,
+    #2C5364
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
