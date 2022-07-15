@@ -8,12 +8,15 @@ import modal from './files/modal';
 
 
 
+
 function App() {
+
+  
   // could probably make this a call to a shorter function, this needs to load before the page
   //Halloween();
   //find a place for this
-  document.addEventListener("DOMContentLoaded", Halloween);
-  document.addEventListener("DOMContentLoaded", modal);
+  //document.addEventListener("DOMContentLoaded", Halloween);
+  //document.addEventListener("DOMContentLoaded", modal);
 
   
   return (
@@ -175,11 +178,6 @@ function App() {
                   <dd>2021 - Present</dd>
                 </dl>
               </div>
-              <div class="status-bar">
-                <p class="status-bar-field">Press F1 for help</p>
-                <p class="status-bar-field">Slide 1</p>
-                <p class="status-bar-field">CPU Usage: 14%</p>
-              </div>
             </div>
           </div> 
       </section>
@@ -210,11 +208,6 @@ function App() {
                     <li>Evil Dead</li>
                   </section>
                 </ul>
-              </div>
-              <div class="status-bar">
-                <p class="status-bar-field">Press F1 for help</p>
-                <p class="status-bar-field">Slide 1</p>
-                <p class="status-bar-field">CPU Usage: 14%</p>
               </div>
             </div>
           </div> 
