@@ -15,12 +15,6 @@
 }
 
 
-#larger_text
-{
-  font-size: large;
-  width: 100%;
-  height: 100%;
-}
 
 #homepage
 {
@@ -31,6 +25,7 @@ background-repeat: no-repeat;
 background-size: cover;
 
 }
+
 
 #profile
 {
@@ -123,7 +118,7 @@ h1,h2
   position: absolute;
   top: 0;
   margin-left: 70%;
-  margin-top: 10vh;
+  margin-top: 13vh;
   filter: saturate(800%);
 }
 
@@ -133,22 +128,13 @@ h1,h2
   border-style: dotted;
   position: absolute;
   top: 0;
-  margin-left: 70%;
-  margin-top: 60vh;
+  margin-left: 3%;
+  margin-top: 40vh;
   /* Make this the halloween filter filter:  hue-rotate(180deg); */
   filter: hue-rotate(300deg)  saturate(200%);
 }
 
-#Hobbies
-{
-  border: 10px 10px #282c34;
-  border-style: dotted;
-  position: absolute;
-  top: 0;
-  margin-left: 30%;
-  margin-top: 40vh;
-  filter: hue-rotate(300deg) saturate(800%);
-}
+
 .jobs
 {
   font-weight: 800;
@@ -169,17 +155,29 @@ h1,h2
   padding-bottom: -4% ;
 }
 
+#personal
+{
+  color:white;
+  font-weight: 400;
+  font-size: 13px;
+}
+
 #Hobbies
 {
+  /* animation: bob 10s ease-in-out infinite alternate; */
   border: 10px 10px #282c34;
   border-style: dotted;
   position: absolute;
   top: 0;
   margin-left: 30%;
-  margin-top: 40vh;
-  filter: hue-rotate(300deg) saturate(800%);
+  margin-top: 25vh;
+
 }
 
+#pr
+{
+  filter: hue-rotate(300deg) saturate(800%);
+}
 #hobby
 {
   margin-left: -10%;
@@ -250,4 +248,35 @@ ul.List
   line-height: 18px;
 
 }
+/* 
+.about
+{
+  margin-top: -49.7%;
+  margin-left: 80.9%;
+} */
 
+.about
+{
+  margin-top: -10%;
+  margin-left: 40%;
+
+}
+
+#larger_text
+{
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  font-weight: 510;
+}
+@keyframes bob {
+  0% {
+      transform: translateY(0px);
+  }
+  50% {
+      transform: translateY(-7vh);
+  }
+  100% {
+      transform: translateY(0px);
+  }
+}

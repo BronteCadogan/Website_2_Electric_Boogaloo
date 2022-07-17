@@ -205,8 +205,8 @@ function App() {
               </div>
               <div class="status-bar">
                 <p class="status-bar-field">Press F1 for help</p>
-                <p class="status-bar-field">Slide 1</p>
-                <p class="status-bar-field">CPU Usage: 14%</p>
+                {/* <p class="status-bar-field">Slide 1</p> */}
+                <p class="status-bar-field">CPU Usage: {Math.floor(Math.random() * 101)}%</p>
               </div>
             </div>
           </div>
@@ -224,9 +224,15 @@ function App() {
                   <dt className='jobs'>Publix Super Markets Inc.</dt>
                   <dd>Cashier</dd>
                   <dd>2017 - Present</dd>
+                  <dt className='jobs'>Skills:</dt>
+                  <dd>Teamwork, Communication, Time management, Customer Service, Crisis Management</dd>
+                  <br/><hr/>
                   <dt className='jobs'>University of Florida: Florida Insitute for Cybersecurity Research</dt>
                   <dd>Web Developer/Undergraduate Researcher</dd>
                   <dd>2021 - Present</dd>
+                  <dt className='jobs'>Skills:</dt>
+                  <dd>Communication, Time management, WordPress, AngularJS, HTML/HTML5, CSS, Javascript, PHP, Python, Verilog, RedHat Linux, Data Management/Analytics</dd>
+                  <br></br><hr></hr>
                 </dl>
               </div>
             </div>
@@ -238,7 +244,7 @@ function App() {
       <div>
             <div class="window" style={{width: "320px"}}>
               <div class="title-bar" id="pr">
-              <div class="title-bar-text">Personality</div>
+              <div class="title-bar-text" id="personal"><strong>Personality</strong></div>
               </div>
               <div class="window-body">
               <ul className='List'>
@@ -256,7 +262,7 @@ function App() {
                     <li>2001 A Space Odyssey</li>
                     <li>Star Wars Episode III - Revenge of the Sith</li>
                     <li>Star Trek IV: The Voyage Home</li>
-                    <li>Evil Dead</li>
+                    <li>Evil Dead 2</li>
                   </section>
                 </ul>
               </div>
@@ -273,7 +279,7 @@ function App() {
               <div class="title-bar-text">Status</div>
             </div>
             <div class="window-body">
-              <q id="larger_text">Jack of all trades and master of none better than a master of one</q>
+              <q id="larger_text">Jack of all trades and master of none, better than a master of one</q>
             </div>
           </div>
       </section>    
