@@ -1,13 +1,11 @@
 import './App.css';
 import bronte from "./images/profile.png"
 import resume from "./files/BronteCadoganResume.pdf"
-import Modal from 'react-modal';
 import React from 'react';
-import ReactDOM from 'react-dom';
 import ReactModal from "react-modal";
 
 import Halloween from './files/functions';
-import modal from './files/modal';
+
 // One Page Website 
 
 
@@ -35,7 +33,7 @@ function App() {
   const ModalComponent = useCustomModal ? CustomModal : ReactModal;
 
   // could probably make this a call to a shorter function, this needs to load before the page
-  //Halloween();
+  Halloween();
   //find a place for this
   //document.addEventListener("DOMContentLoaded", Halloween);
   //document.addEventListener("DOMContentLoaded", modal);

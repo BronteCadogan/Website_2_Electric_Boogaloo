@@ -117,7 +117,7 @@ h1,h2
   border-style: dotted;
   position: absolute;
   top: 0;
-  margin-left: 70%;
+  margin-left: 76%;
   margin-top: 13vh;
   filter: saturate(800%);
 }
@@ -128,8 +128,8 @@ h1,h2
   border-style: dotted;
   position: absolute;
   top: 0;
-  margin-left: 3%;
-  margin-top: 40vh;
+  margin-left: 55%;
+  margin-top: 13vh;
   /* Make this the halloween filter filter:  hue-rotate(180deg); */
   filter: hue-rotate(300deg)  saturate(200%);
 }
