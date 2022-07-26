@@ -15,6 +15,9 @@
 }
 
 
+.window{
+  width: 320px;
+}
 
 #homepage
 {
@@ -394,6 +397,7 @@ ul.List
       margin-left: 0%;
       margin-top:70vh;
       filter: saturate(800%);
+      color: black;
     }
 
     #mobile
