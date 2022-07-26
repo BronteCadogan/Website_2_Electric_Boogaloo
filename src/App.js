@@ -185,7 +185,7 @@ function App() {
      
       <section id="Projects" >
         <div>
-            <div class="window" style={{width: "320px"}}>
+            <div className="window">
               <div class="title-bar">
               <div class="title-bar-text">Projects: Click on one to learn more</div>
               </div>
@@ -213,7 +213,7 @@ function App() {
       
       <section id="Experience">
       <div>
-            <div class="window" style={{width: "320px"}}>
+            <div className="window" >
               <div class="title-bar" id="exp">
               <div class="title-bar-text">Experience</div>
               </div>
@@ -240,7 +240,7 @@ function App() {
       
       <section id="Hobbies">
       <div>
-            <div class="window" style={{width: "320px"}}>
+            <div className="window" id="mobile">
               <div class="title-bar" id="pr">
               <div class="title-bar-text" id="personal"><strong>Personality</strong></div>
               </div>
@@ -249,17 +249,26 @@ function App() {
                   <section id="hobby">
                     <p><strong>Hobbies</strong></p>
                     <li>Film Making</li>
+                    <br/>
                     <li>Video Editing</li>
+                    <br/>
                     <li>Photography</li>
+                    <br/>
                     <li>Weight Lifting</li>
+                    <br/>
                     <li>Cooking</li>
+                    <br/>
                   </section>
                   <section id="movies">
                     <p><strong id="padd">Favorite Films</strong></p>
                     <li>Pulp Fiction</li>
+                    <br/>
                     <li>2001 A Space Odyssey</li>
+                    <br/>
                     <li>Star Wars Episode III - Revenge of the Sith</li>
+                    <br/>
                     <li>Star Trek IV: The Voyage Home</li>
+                    <br/>
                     <li>Evil Dead 2</li>
                   </section>
                 </ul>

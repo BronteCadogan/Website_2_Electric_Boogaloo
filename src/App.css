@@ -280,3 +280,166 @@ ul.List
       transform: translateY(0px);
   }
 }
+
+
+/* begin media queries */
+
+@media screen and (min-device-width: 375px) and (max-device-width: 500px) 
+{
+
+  #profile{
+      min-width: 0vw;
+      min-height: 0vh;
+      width: 15vw;
+      height: 12.5vh;
+      border-radius: 250px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-left: 1%;
+      margin-top: 1%;
+      filter:contrast(120%) saturate(160%);
+      box-shadow: -10px 10px black;
+    }
+
+    #name
+    {
+      background: linear-gradient(
+        to bottom,  
+        #0F2027,
+        #203A43,
+        #2C5364
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      font-size: 12px;
+      margin-left: 4%;
+    }
+
+    #qualification
+    {
+      font-size: 11px;
+      margin-left: 4%;
+      background: linear-gradient(
+        to bottom ,  
+      
+        /* rgb(61, 200, 255), 
+        rgb(105, 255, 46) */
+        #0F2027,
+        #203A43,
+        #2C5364
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      padding-top: 2%;
+    }
+
+    
+
+    #list
+    {
+      text-align: left;
+      position: absolute;
+      top: 0;
+      left: 20%;
+      margin-left: -1%;
+      display: inline;
+      font-size: 23px;
+      padding-top: 2%;
+      margin-top: 8.5%;
+      padding-left: 0;
+      font-size: 12px;
+    }
+
+    #Hobbies{
+      /* animation: bob 10s ease-in-out infinite alternate; */
+      border: 10px 10px #282c34;
+      /* border-style: dotted; */
+      position: absolute;
+      top: 0;
+      margin-left: 0%;
+      margin-top: 115vh;
+      height: 400px;
+    }
+
+    li
+    {
+      padding-top: 5%;
+      display: inline;
+      padding-right: 10%;
+    }
+
+    .window{
+      width: 291px;
+    }
+
+    #Experience{
+      border: 10px 10px #282c34;
+      /* border-style: dotted; */
+      position: absolute;
+      top: 0;
+      margin-left: 0%;
+      margin-top: 15vh;
+      /* Make this the halloween filter filter:  hue-rotate(180deg); */
+      filter: hue-rotate(300deg)  saturate(200%);
+    }
+
+    #Projects{
+      border: 10px 10px #282c34;
+      /* border-style: dotted; */
+      position: absolute;
+      top: 0;
+      margin-left: 0%;
+      margin-top:70vh;
+      filter: saturate(800%);
+    }
+
+    #mobile
+    {
+      
+      text-align: left;
+      display: inline-block;
+    }
+    
+    #hobby
+    {
+      width: 50%;
+    }
+
+    #movies
+    {
+      margin-top: -15%;
+      margin-left: -10%;
+      width: 100%;
+    }
+    .about
+    {
+      margin-top: -30%;
+      margin-left: 0%;
+
+    }
+
+    #homepage {
+    background-image: url("/src/images/clouds_bmp.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+    }
+
+    #mode {
+      top: 50%;
+      left: 0%;
+      right: auto;
+      bottom: auto;
+      margin-right: -50%;
+      margin-left: -10%;
+      width: 70%;
+      height: 40%;
+      line-height: 18px;
+    
+    }
+}
